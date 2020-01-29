@@ -25,7 +25,7 @@ pygmentsCodefencesGuessSyntax = true
   # blogDir = "blogFolderName" # uncomment and edit to exclude normal pages ... see issue #57
 
 # [params.staticman]
-#   endpoint = ""  # URL of your own API deployment (without trailing slash), default: "https://staticman-frama.herokuapp.com"
+#   endpoint = "https://staticman3.herokuapp.com"  # URL of your own API deployment (without trailing slash), default: "https://staticman-frama.herokuapp.com"
 #   gitProvider = "github"  # Either "github" or "gitlab"
 #   username = "davdegreat"  # GitHub/GitLab user name
 #   repository = "survivallabs.ml"  # GitHub/GitLab user name
