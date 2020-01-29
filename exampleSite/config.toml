@@ -1,7 +1,7 @@
-baseurl = "https://example.com/"  # Include trailing slash
-title = "Hugo Themes"
+baseurl = "https://survivallabs.ml/"  # Include trailing slash
+title = "Survival Labs™"
 theme = "hugo-swift-theme"
-author = "Steve Francia"
+author = "David Dilanchian"
 copyright = "Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved."
 canonifyurls = true
 paginate = 4
@@ -13,6 +13,16 @@ pygmentsCodefencesGuessSyntax = true
 [params]
   # ga_analytics = "" # google analytics ID e.g UA-116386578-1
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKVW19F4F9"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KKVW19F4F9');
+</script>
+
   # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
   # twitter = "" # twitter handle e.g @weru
   # logo = "logo.png"
@@ -23,8 +33,8 @@ pygmentsCodefencesGuessSyntax = true
 # [params.staticman]
 #   endpoint = ""  # URL of your own API deployment (without trailing slash), default: "https://staticman-frama.herokuapp.com"
 #   gitProvider = "github"  # Either "github" or "gitlab"
-#   username = "username"  # GitHub/GitLab user name
-#   repository = "repo"  # GitHub/GitLab user name
+#   username = "davdegreat"  # GitHub/GitLab user name
+#   repository = "survivallabs.ml"  # GitHub/GitLab user name
 #   branch = "master"  # Branch holding the source code for your site, should match the `branch` parameter in `staticman.yml`
 #
 #   # If you use reCAPTCHA v2, you must also set these parameters in staticman.yml
