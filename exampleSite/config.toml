@@ -12,17 +12,11 @@ pygmentsCodefencesGuessSyntax = true
 
 [params]
   # ga_analytics = "" # google analytics ID e.g UA-116386578-1
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-KKVW19F4F9"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KKVW19F4F9');
-</script>
-
+    # Analytic section
+    google_analytics_id = "221430475" # Your Google Analytics tracking id
+    tag_manager_container_id = "G-KKVW19F4F9" # Your Google Tag Manager container id
+    google_site_verification = "" # Your Google Site Verification for Search Console
+    
   # ga_verify = "" # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
   # twitter = "" # twitter handle e.g @weru
   # logo = "logo.png"
